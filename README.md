@@ -14,26 +14,40 @@ https://filemanagement-klrl.onrender.com/
 4.Multer (file upload)
 CORS
 📂 Features
-🔐 Authentication
-User Registration
+
+🔐 Authentication,
+User Registration,
 User Login
+
+
 📁 File Management
-Upload files
-Download files
-View uploaded files
+Upload files,
+Download files,
+View uploaded files,
 Delete files
+
+
 👨‍💼 Admin Features
-View users with file count
+View users with file count,
 Delete user folders and files
+
+
+
 📁 Project Structure
 FileManagement/
  ├── server.js
  ├── package.json
  ├── uploads/
 ⚙️ Installation (Local Setup)
+
+
 git clone https://github.com/Madhavi148/FileManagement.git
+
+
 cd FileManagement
 npm install
+
+
 ▶️ Run Locally
 node server.js
 
@@ -52,10 +66,16 @@ Deployed on Render:
 
 Build Command:
 npm install
+
+
 Start Command:
 npm start
+
+
 📡 API Endpoints
 🔐 Auth APIs
+
+
 Register
 POST /api/auth/register
 
