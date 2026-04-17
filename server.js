@@ -64,7 +64,9 @@ const uploadsBaseDir = path.join(__dirname, 'uploads');
 if (!fs.existsSync(uploadsBaseDir)) {
     fs.mkdirSync(uploadsBaseDir);
 }
-
+app.get('/', (req, res) => {
+    res.send('File Management API is running 🚀');
+});
 // Auth Routes
 app.post('/api/auth/register', async (req, res) => {
     try {
