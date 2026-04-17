@@ -6,10 +6,10 @@ https://filemanagement-klrl.onrender.com/
 
 
 🧱 Tech Stack
-Node.js
-Express.js
-MongoDB (Mongoose)
-Multer (file upload)
+1.Node.js
+2.Express.js
+3.MongoDB (Mongoose)
+4.Multer (file upload)
 CORS
 📂 Features
 🔐 Authentication
