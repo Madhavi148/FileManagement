@@ -25,8 +25,8 @@ public class FileRepository {
     private static final String TAG = "FileRepository";
     private final ApiService apiService;
     
-    // REPLACE THIS with your actual Render URL (e.g., https://your-app.onrender.com)
-    private static final String BASE_URL = "https://your-file-management-app.onrender.com"; 
+    // Updated BASE_URL (Removed trailing slash)
+    private static final String BASE_URL = "https://filemanagement-klrl.onrender.com"; 
 
     public FileRepository() {
         HttpLoggingInterceptor logging = new HttpLoggingInterceptor();
@@ -44,7 +44,6 @@ public class FileRepository {
         apiService = retrofit.create(ApiService.class);
     }
 
-    // ... (rest of the code remains the same)
     public LiveData<String> login(String username, String password) {
         MutableLiveData<String> loginResult = new MutableLiveData<>();
         User user = new User(username, password, null);
