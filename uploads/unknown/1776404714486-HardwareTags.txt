@@ -1,0 +1,17 @@
+<UbootImageName>1.0.0-511984</UbootImageName>
+<KernelImageName>4.19.157</KernelImageName>
+<RootfsImageName>1.0.0-512037</RootfsImageName>
+<IMEInumberExists>Yes</IMEInumberExists>
+<IMEInumber>866887066051296</IMEInumber>
+<GSMVersionExists>Yes</GSMVersionExists>
+<GSMVersion>866887067051295</GSMVersion>
+<CamType>Dual</CamType>
+<CamTypeExists>Found</CamTypeExists>
+<IritechSnoExists>NotFound</IritechSnoExists>
+<IritechSno>NotConnected</IritechSno>
+<FPScanneridExists>Yes</FPScanneridExists>
+<FPScannerid>V40025052A084703</FPScannerid>
+<HardwareIDExists>Yes</HardwareIDExists>
+<HardwareID>7951563479757A7A766645486C35773D</HardwareID>
+<WSSNExists>NotFound</WSSNExists>
+<WSSN>NotConnected</WSSN>
