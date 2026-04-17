@@ -128,7 +128,7 @@ UI dashboard
 👩‍💻 Author
 
 Madhavi Bojja
-Android & Backend Developer
+Android & FullStack Developer
 
 📜 License
 
